@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,600;1,800&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #190a23;
+  color: whitesmoke;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input {
+  background-color: #200c2f;
+  border: 1px solid #7a2ea0;
+  color: whitesmoke;
+}
+button {
+  background-color: #2a1b43;
+  border: 1px solid #7a2ea0;
+  color: #c897ff;
+  border-radius: 7px;
+  transition: 500ms;
+  padding: 0 5px;
+}
+button:hover {
+  background-color: #ba30ff;
+  color: rgb(255, 255, 255);
+  border-color: #ba30ff;
+  box-shadow: #b41effc6 0 0 5px 5px;
+  cursor: pointer;
+}
+button:disabled {
+  box-shadow: none;
+  background-color: #2a1b43;
+  cursor: default;
+  color: #644686;
+}
+
+select {
+  background-color: #2a1b43;
+  border: 1px solid #7a2ea0;
+  color: #c897ff;
+  border-radius: 2px;
+  transition: 500ms;
+  padding: 2px 5px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+hr {
+  background-color: #a43dd7;
+  width: 80%;
+  height: 1px;
+  border: none;
+  margin: 10px auto;
+}
+
+table {
+  border-spacing: 20px;
+  font-family: JetBrains Mono, monospace;
+  border-left: 1px solid #7a2ea0;
+}
+
+th, td {
+  max-width: 200px;
+  overflow: hidden;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bill-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.header {
+  box-sizing: border-box;
+  background-color: #200c2f;
+  border-bottom: 1px solid #7a2ea0;
+  align-items: center;
+  height: 70px;
+  padding: 20px;
+}
+
+.header * {
+  margin-right: 10px;
+}
+
+.span {
+  display: flex;
+}
+
+#email {
+  margin-right: 30px;
+}
